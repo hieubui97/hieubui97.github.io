@@ -1,0 +1,218 @@
+/* Responsive website */
+/* Các thuộc tính height, width, size, margin, padding chỉnh bằng %, không chỉnh bằng px */
+/* cú pháp media queries */
+@media only screen and (max-width:1000px){
+    h1{
+        /* color: red; */
+    }
+}
+
+/* Big tablet from 1024px to 1200px; */
+@media only screen and (max-width:1200px){
+    html{
+        font-size: 16px;
+    }
+
+    .heading-main-box{
+        transform: translate(-35%,-50%);
+    }
+
+    form{
+        margin-left: 25%;
+    }
+    
+    .product-box .btn{
+        margin-left: 45px;
+    }
+}
+
+/* Small tablet to big tablet from 768px to 1023px */
+@media only screen and (max-width:1023px){
+    .logo{
+        width: 280px;
+        margin-left: 40px;
+    }
+
+    .main-nav{
+        margin-right: 20px;
+        margin-top: 40px;
+    }
+
+    .main-nav li{
+        margin-right: 15px;
+    }
+
+    .main-nav li a{
+        font-size: 95%;
+    }
+
+    .heading-main-box{
+        font-size: 90%;
+        transform: translate(-20%,-50%);
+    }
+
+    .products-section{
+        font-size: 70%;
+    }
+
+    .product-box{
+        height: 280px;
+    }
+
+    .product-box .btn{
+        width: 140px;
+        margin-left: 30px;
+    }
+
+    cite img{
+        height: 40px;
+    }
+
+    .social-icons li{
+        margin-left: 10px;
+    }
+
+    .information{
+        margin-top: 40px;
+    }
+
+    .information .small-icon{
+        display: block;
+    }
+
+    .information li{
+        font-size: 14px;
+    }
+}
+
+/* Small phones to small tablet from 480px to 767px */
+@media only screen and (max-width:767px){
+    .col{
+        width: 100%;
+
+    }
+
+    .main-nav{
+        visibility: hidden;
+    }
+
+    .logo{
+        width: 350px;
+        margin-left: 15%;
+    }
+
+    h1{
+        word-spacing: 2px;
+        font-size: 250%;
+        
+    }
+
+    .heading-main-box{
+            transform: translate(-15%,-50%);
+    }
+
+    .heading-main-box .btn{
+        width: 15%;
+    }
+
+    .col:first-child{
+        margin: 1% 0 1% 1.6%;
+    }
+
+    .about-picture{
+        text-align: center;
+    }
+
+    .about-picture img{
+        width: 70%;
+        
+    }
+
+    .about-section .row .p-long{
+        /* font-size: 20px; */
+    }
+
+    .picture-title{
+        font-size: 25px;
+    }
+
+    .products-section{
+        font-size: 100%;
+    }
+
+    .product-box{
+        width: 70%;
+        margin: 50px auto;
+        height: 350px;
+    }
+
+    .product-box ul li{
+        margin-left: 25%;
+    }
+
+    .products-section .btn{
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .testimonials-section .row .col {
+        margin-bottom: 50px;
+    }
+
+    .sponsors-section figure img{
+        width: 60%;
+    }
+
+    figcaption{
+        visibility: hidden;
+    }
+
+    .information{
+        padding-left: 50px;
+        /* text-align: center; */
+        font-size: 200%;
+    }
+
+    .social-icons{
+        padding-left: 40px;
+        /* text-align: center; */
+    }
+
+    .social-icons li{
+        margin-right: 30px;
+    }
+
+    form{
+        width: 90%;
+        margin-left: 0;
+        margin-top: 50px;
+        padding: 5px;
+    }
+}
+
+/* small phone from 0 to 480px */
+@media only screen and (max-width:480px){
+    html{
+        font-size: 12px;
+    }
+
+    .logo{
+        width: 80%;
+        margin-top: 25px;
+        margin-left: 20px;
+    }
+
+    .heading-main-box{
+        transform: translate(-10%,-50%);
+    }
+
+    .heading-main-box h1{
+        font-size: 200%;
+    }
+
+    .heading-main-box .btn{
+        display: block;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+}
